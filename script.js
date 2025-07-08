@@ -14,7 +14,7 @@ arr.forEach((button)=>{
             total.value=string;
         }
         else if(e.target.innerHTML=='DEL'){
-            string=string.slice(0,string.length-1);
+            string = string.toString().slice(0, -1);
             total.value=string;
         }
         else if(e.target.innerHTML=='x²'){
